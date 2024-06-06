@@ -6,16 +6,62 @@
   --royalblue: #4169e1;
   --teal: #008080;
   --violet: #9400d3;
+  --red: #ff0000;
+  --green: #008000;
+  --blue: #0000ff;
 }
 
 /* Use attribute selectors for the first part of the exercise */
+li[class="dog"] {
+  color: var(--magenta);
+}
 
-li[class] {
-  color: var(--red);
+li[id="cat"] {
+  color: var(--teal);
+}
+
+li[class="parrot"] {
+  color: var(--green);
+}
+
+li[class="donkey"] {
+  color: var(--royalblue);
+}
+
+li[class="hedgehog"] {
+  color: var(--magenta);
+}
+
+li.cat.dog.parrot {
+  color: var(--royalblue);
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
+.list-food > div + ol > li.first {
+  color: var(--green);
+}
 
-section li {
+.list-food > div + ol > li.second {
+  color: var(--darkmagenta);
+}
+
+.list-food > div + ol > li:nth-child(3) {
+  color: var(--royalblue);
+}
+
+.list-food > div + ol > li:nth-child(4) {
+  color: var(--darkmagenta);
+}
+
+/* Additional styling for cleaning supplies */
+.list-cleaning ol > li:first-child {
+  color: var(--green);
+}
+
+.list-cleaning ol > li:nth-child(2) {
+  color: var(--green);
+}
+
+.list-cleaning ol > li:nth-child(3) {
   color: var(--green);
 }

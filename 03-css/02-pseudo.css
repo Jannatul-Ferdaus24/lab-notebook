@@ -2,3 +2,16 @@
   width: 600px;
   margin: 40px auto;
 }
+
+.paragraph {
+  margin-top: 78px; /* Adjust this value as needed */
+}
+
+.paragraph::first-letter {
+  font-size: 4em;
+  font-weight: bold;
+  float: left;
+  line-height: 1;
+  margin-right: 10px;
+  margin-top: -0.7em;
+}

@@ -2,25 +2,56 @@
   --darkviolet: #9400d3;
   --maroon: #800000;
   --darkgolden: #8f6805;
+  --purple: #800080;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .box {
   padding: 10px;
   color: var(--white);
+  text-align: center;
 }
 
 .static {
+  position: static;
+  width: 600px;
+  height: 400px;
   background-color: var(--darkviolet);
 }
 
 .relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
   background-color: var(--purple);
 }
 
 .absolute {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 65px;
   background-color: var(--maroon);
 }
 
 .fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
   background-color: var(--darkgolden);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: calc(100vh - 120px);
 }
