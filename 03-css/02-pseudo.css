@@ -8,10 +8,10 @@
 }
 
 .paragraph::first-letter {
-  font-size: 4em;
+  font-size: 2em;
   font-weight: bold;
   float: left;
   line-height: 1;
   margin-right: 10px;
-  margin-top: -0.7em;
+  margin-top: -0.43em;
 }
