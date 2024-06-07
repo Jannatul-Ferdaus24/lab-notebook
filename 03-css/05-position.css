@@ -14,19 +14,19 @@ body {
 .box {
   padding: 10px;
   color: var(--white);
-  text-align: center;
+  text-align: left;
 }
 
 .static {
   position: static;
-  width: 600px;
+  width: 1100px;
   height: 400px;
   background-color: var(--darkviolet);
 }
 
 .relative {
   position: relative;
-  width: 600px;
+  width: 1100px;
   height: 400px;
   background-color: var(--purple);
 }

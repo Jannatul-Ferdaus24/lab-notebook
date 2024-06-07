@@ -25,11 +25,11 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  margin-left: 5;
+  margin: 0;
 }
 
 nav li {
-  marginleft: 10 20px;
+  margin: 0 20px;
 }
 
 nav a {
@@ -83,7 +83,7 @@ nav a {
   }
 
   header {
-    background: var(--yellow);
+    background: var(--black);
   }
 
   nav a {
@@ -114,7 +114,7 @@ nav a {
 /* Media query for max-width 767px */
 @media (max-width: 767px) {
   body {
-    background: var(--black);
+    background: var(--purple);
     color: var(--white);
   }
 
@@ -138,6 +138,6 @@ nav a {
   }
 
   #manchego {
-    background: var(--black);
+    background: var(--purple);
   }
 }
