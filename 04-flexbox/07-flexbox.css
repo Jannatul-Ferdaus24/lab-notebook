@@ -1,23 +1,86 @@
 .flex-container {
-  background-color: rgb(190, 190, 231);
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 5px;
+}
+
+.flex-item {
+  background-color: #800080;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: 2px;
 }
 
 /* Flex Container 1 */
-
-/* Flex Container 2 */
-
-/* Flex Container 3 */
-
-/* use height: 400px; on the container */
-
-/* Flex Container 4 */
-
-/* Flex Container 5 */
-
-/* Flex Container 6 */
-
-.flex-container-6 .flex-item {
-  width: 400px;
+.flex-container-1 {
+  justify-content: center;
 }
 
-/* use height: 300px; on the container */
+.flex-container-1 .item1,
+.flex-container-1 .item2,
+.flex-container-1 .item3,
+.flex-container-1 .item4,
+.flex-container-1 .item5 {
+  order: 1;
+}
+
+.flex-container-1 .item6,
+.flex-container-1 .item7,
+.flex-container-1 .item8 {
+  order: 2;
+  flex-basis: 40px;
+}
+
+/* Flex Container 2 */
+.flex-container-2 {
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.flex-container-2 .item8,
+.flex-container-2 .item7 {
+  flex-direction: column-reverse;
+}
+
+/* Flex Container 3 */
+.flex-container-3 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+
+/* Flex Container 4 */
+.flex-container-4 {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Flex Container 5 */
+.flex-container-5 {
+  justify-content: space-between;
+}
+
+/* Flex Container 6 */
+.flex-container-6 {
+  flex-wrap: wrap;
+  height: 120px;
+  align-content: space-between;
+}
+
+.flex-container-6 .item1,
+.flex-container-6 .item2,
+.flex-container-6 .item3,
+.flex-container-6 .item4,
+.flex-container-6 .item5,
+.flex-container-6 .item6,
+.flex-container-6 .item7,
+.flex-container-6 .item8 {
+  width: 100px;
+  height: 70px;
+}

@@ -1,0 +1,9 @@
+.grid-item {
+  background-color: #800080;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 2px;
+}
