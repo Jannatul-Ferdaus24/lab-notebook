@@ -43,6 +43,4 @@ const daenerys = {
 };
 
 console.log(destructureItems(sansa));
-// expected: 'Sansa Stark\n  daughter of\n  Catelyn Tully and Eddard Stark'
 console.log(destructureItems(daenerys));
-// expected: 'Daenerys Targaryen\n  daughter of\n  Queen Rhaella and King Aerys II Targaryen'
